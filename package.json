@@ -1,0 +1,32 @@
+{
+  "name": "asciidoc-proxy",
+  "version": "0.0.0",
+  "description": "Server to convert AsciiDoc to HTML5",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kr1sp1n/asciidoc-proxy.git"
+  },
+  "keywords": [
+    "asciidoc",
+    "proxy",
+    "server"
+  ],
+  "author": "kr1sp1n",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kr1sp1n/asciidoc-proxy/issues"
+  },
+  "homepage": "https://github.com/kr1sp1n/asciidoc-proxy#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "asciidoctor": "^2.0.3"
+  }
+}

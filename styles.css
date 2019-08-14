@@ -1,0 +1,27 @@
+body {
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: Verdana, sans-serif;
+  color: #333;
+  max-width:34em;
+  margin:auto;
+  padding:0 1em;
+  letter-spacing: .03em;
+}
+
+@media screen and (max-width: 25em) {
+  body { font-size: 90%;}
+}
+
+h1 {
+  font-size: 2.747em;
+}
+
+h2 {
+  font-size: 1.874em;
+  letter-spacing: .05em;
+}
+
+h3 {
+  font-size:1.229em;
+}

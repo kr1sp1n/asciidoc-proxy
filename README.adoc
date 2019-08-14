@@ -1,0 +1,12 @@
+= asciidoc-proxy
+Krispin Schulz <krispin@posteo.de>
+:toc:
+
+Server to convert AsciiDoc to HTML5 on the fly.
+
+== Run
+....
+npm run start
+....
+
+Goto http://localhost:3000/?url=https://raw.githubusercontent.com/kr1sp1n/asciidoc-proxy/master/README.adoc to see the README.adoc converted as HTML.
